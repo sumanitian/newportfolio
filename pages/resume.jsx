@@ -42,7 +42,7 @@ const resume = () => {
           <Image src={resumeimg} className='rounded-xl' alt='/' />
       </div>
       <button class="w-full rounded-md shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-        <a href="https://drive.google.com/file/d/1YfM60t8vshCdRnRUPUJO27_g9Xs2SMkA/view?usp=share_link" target="_blank">Download</a>
+        <a href="https://drive.google.com/file/d/1YfM60t8vshCdRnRUPUJO27_g9Xs2SMkA/view?usp=share_link" target="_blank" rel="noreferrer">Download</a>
       </button>
       {/* <button className='w-full p-4 text-gray-100 mt-4'>
 

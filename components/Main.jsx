@@ -43,7 +43,7 @@ const Main = () => {
               rel='noreferrer'
             >
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <i class="fa-brands fa-medium"></i>
+                <i className="fa-brands fa-medium"></i>
               </div>
             </a>
             {/* <Link href='/#contact'>
