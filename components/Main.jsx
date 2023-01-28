@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaGithub, FaLinkedinIn, AiFillMediumCircle } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, AiFillMediumCircle, FaMedium } from 'react-icons/fa';
 
 const Main = () => {
   return (
@@ -43,7 +43,8 @@ const Main = () => {
               rel='noreferrer'
             >
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <i className="fa-brands fa-medium"></i>
+                {/* <i className="fa-brands fa-medium"></i> */}
+                <FaMedium />
               </div>
             </a>
             {/* <Link href='/#contact'>
