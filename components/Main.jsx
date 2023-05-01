@@ -2,11 +2,10 @@ import Link from 'next/link';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-<<<<<<< HEAD
 import { FaGithub, FaLinkedinIn, AiFillMediumCircle, FaMedium } from 'react-icons/fa';
 =======
-import { FaGithub, FaLinkedinIn, AiFillMediumCircle, Famedium } from 'react-icons/fa';
->>>>>>> origin/main
+// import { FaGithub, FaLinkedinIn, AiFillMediumCircle, Famedium } from 'react-icons/fa';
+
 
 const Main = () => {
   return (
@@ -47,11 +46,11 @@ const Main = () => {
               rel='noreferrer'
             >
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-<<<<<<< HEAD
+
                 {/* <i className="fa-brands fa-medium"></i> */}
-=======
-//                 <i className="fa-brands fa-medium"></i>
->>>>>>> origin/main
+
+              <i className="fa-brands fa-medium"></i>
+
                 <FaMedium />
               </div>
             </a>
