@@ -49,7 +49,7 @@ const Main = () => {
 
                 {/* <i className="fa-brands fa-medium"></i> */}
 
-              <i className="fa-brands fa-medium"></i>
+             
 
                 <FaMedium />
               </div>
