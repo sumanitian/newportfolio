@@ -6,7 +6,8 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
 // import NavLogo from '../public/assets/navLogo.png'
-import NavLogo from '../public/assets/data-science-icon.png'
+// import NavLogo from '../public/assets/data-science-icon.png'
+import NavLogo from '../public/assets/mylogo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -46,7 +47,7 @@ const Navbar = () => {
               src={NavLogo}
               alt='/'
               width='125'
-              height='50'
+              height='100'
               className='cursor-pointer'
             />
           </a>
